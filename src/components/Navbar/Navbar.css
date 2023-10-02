@@ -1,0 +1,92 @@
+.navbar {
+  
+  background-color: rgb(245, 123, 143);
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  height: 3rem;
+  display: flex;
+  border-radius: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  z-index: 3;
+  max-width: 80rem;
+  position: sticky;
+  color: white;
+}
+.logo {
+  object-fit: cover;
+  height: 3rem;
+  width: 4rem;
+}
+.link {
+  margin: 1rem;
+  cursor: pointer;
+}
+.link:hover {
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 0.5rem;
+}
+.button {
+  color: black;
+  border: none;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+/* .contactimg {
+  object-fit: cover;
+  height: 1rem;
+  width: 2rem;
+  margin: 0.5rem;
+} */
+.active{
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 0.5rem;
+}
+.mobmenue{
+  display: none;
+  object-fit: cover;
+  height: 1.5rem;
+  color: white;
+}
+.navmenue{
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  height: fit-content;
+  min-width:15rem ;
+  background-color: rgb(245, 123, 143);
+  border-radius: 1rem;
+}
+.listitem{
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem 3rem;
+  margin: 0.25rem;
+ background-color:pink ;
+ cursor: pointer;
+
+}
+
+@media screen and (max-width:720px) {
+  .mobmenue{
+    display: flex;
+
+  }
+  .items, .button{
+    display: none;
+  }
+  
+}

@@ -1,0 +1,121 @@
+.twocontact {
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  overflow: hidden;
+  max-width: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.clientsection {
+  text-align: center;
+}
+
+.clienthead {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-top: 0.3rem;
+  color: rgb(245, 123, 143);
+}
+
+.clientdes {
+  font-size: 1rem;
+  font-weight: 300;
+  max-width: 51rem;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+}
+.clientimages {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 65rem;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+#im1 {
+  height: 5.2rem;
+}
+.clientimage {
+  min-width: 9rem;
+  width: 14rem;
+  margin: 0.5rem;
+  border: 0.1rem solid;
+}
+
+.contactsection {
+  padding:5rem 5rem 0 5rem;
+}
+
+.contacthead {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-top: 0.3rem;
+  color: rgb(245, 123, 143);
+}
+.contactdes {
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 51rem;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+  }
+  .contactform{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+    
+
+  }
+
+  
+.name ,.email ,.message{
+    width: 100%;
+    max-width: 40rem;
+    font-size: medium;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border: 0.1rem solid rgb(245, 123, 143);
+  
+  }
+
+
+  .submitbtn{
+    margin: 1rem 0;
+    padding: 0.5rem 2rem;
+    border: none;
+    border: 0.1rem solid rgb(245, 123, 143);
+    border-radius: 2rem;
+    background-color: rgb(245, 123, 143);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+.icon{
+    object-fit: cover;
+    margin: 0 0.75rem 2rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.yasmeencv{
+  background-color: rgb(245, 123, 143);
+  padding: 1.5rem;
+  color: white;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 2rem;
+}

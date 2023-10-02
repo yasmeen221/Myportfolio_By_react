@@ -1,0 +1,61 @@
+.works {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    overflow: hidden;
+    max-width: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .texttitle {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    padding-top: 3rem;
+  }
+  
+  .textdes {
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 51rem;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+  }
+  .worksbars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 65rem;
+    width: 100vw;
+    flex-wrap: wrap;
+    
+
+  }
+  .workbar {
+    object-fit: cover;
+    height: 16rem;
+    width: 16rem;
+    margin: 0.5rem;
+
+   
+  }
+
+  .btnwork{
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: rgb(245, 123, 143);
+    font-size: 1rem;
+    color: white;
+  }
+  
+ 
+ 
+  
+  
