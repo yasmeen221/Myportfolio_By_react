@@ -7,7 +7,7 @@ import porfolio2 from "../../assets/porfolio2.jpg";
 const Works = () => {
   return (
     <section className="works">
-      <span className="texttitle">My portfolio</span>
+      <span className="texttitle">My projects</span>
       <span className="textdes">
         i am a worked and passionate web designer with experience in creating
         visually appealing and user-friendly website. i have a strong

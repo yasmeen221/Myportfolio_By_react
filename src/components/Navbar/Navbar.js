@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./Navbar.css";
 // import logo from "../../assets/Logo.png";
 // import contact from "../../assets/contact.png"
-import {Link} from "react-scroll";
+import {Button, Link} from "react-scroll";
 import menue from "../../assets/menue.png"
 // import logo from "../../assets/logo-removebg-preview.png"
 
@@ -17,10 +17,10 @@ const [showmenue,setshowmenue]=useState(false);
     {/* <img src={logo} alt='logo' className='logo'></img> */}
     <h2 className='logoname'>MyPortfolio</h2>
     <div className='items'>
-        <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='link'>Home</Link>
-        <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='link'>About</Link>
-        <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='link'>projects</Link>
-        <Link activeClass='active' to='twocontact' spy={true} smooth={true} offset={-50} duration={500} className='link'>Resume</Link>
+        <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='link'><button >Home</button></Link>
+        <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='link'><button>About</button></Link>
+        <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='link'><button>projects</button></Link>
+        <Link activeClass='active' to='twocontact' spy={true} smooth={true} offset={-50} duration={500} className='link'><button>Resume</button></Link>
     </div>
     <Link className='button' activeClass='noactive' to='contactsection' spy={true} smooth={true} offset={-50} duration={500}>Contact Me</Link>
 
